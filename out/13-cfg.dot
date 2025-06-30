@@ -1,0 +1,18 @@
+digraph "&lt;fakeNew&gt;" {  
+node [shape="rect"];  
+"30064771174" [label = <&lt;operator&gt;.assignment, 8<BR/>__newInstance => ]
+"30064771176" [label = <__init__, 8<BR/>cls.__init__(__newInstance, data)> ]
+"146028888073" [label = <RETURN, 8<BR/>return __newInstance> ]
+"30064771173" [label = <&lt;operator&gt;.alloc, 8<BR/>> ]
+"30064771175" [label = <&lt;operator&gt;.fieldAccess, 8<BR/>cls.__init__> ]
+"55834574860" [label = <FIELD_IDENTIFIER, 8<BR/>__init__> ]
+"111669149709" [label = <METHOD, 8<BR/>&lt;fakeNew&gt;> ]
+"128849018893" [label = <METHOD_RETURN, 8<BR/>ANY> ]
+  "30064771174" -> "55834574860" 
+  "30064771176" -> "146028888073" 
+  "146028888073" -> "128849018893" 
+  "30064771173" -> "30064771174" 
+  "30064771175" -> "30064771176" 
+  "55834574860" -> "30064771175" 
+  "111669149709" -> "30064771173" 
+}

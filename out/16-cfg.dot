@@ -1,0 +1,10 @@
+digraph "normalize_data&lt;metaClassAdapter&gt;" {  
+node [shape="rect"];  
+"146028888076" [label = <RETURN, 18<BR/>return normalize_data(self)> ]
+"30064771179" [label = <sample_project/data_processor.py:&lt;module&gt;.DataProcessor.normalize_data, 18<BR/>normalize_data(self)> ]
+"111669149712" [label = <METHOD, 18<BR/>normalize_data&lt;metaClassAdapter&gt;> ]
+"128849018896" [label = <METHOD_RETURN, 18<BR/>ANY> ]
+  "146028888076" -> "128849018896" 
+  "30064771179" -> "146028888076" 
+  "111669149712" -> "30064771179" 
+}

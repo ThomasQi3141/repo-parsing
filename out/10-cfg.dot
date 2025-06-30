@@ -1,0 +1,32 @@
+digraph "get_statistics" {  
+node [shape="rect"];  
+"146028888069" [label = <RETURN, 13<BR/>return { 'average': calculate_avera...> ]
+"30064771138" [label = <&lt;operator&gt;.assignment, 13<BR/>tmp0 = {}> ]
+"30064771142" [label = <&lt;operator&gt;.assignment, 13<BR/>tmp0['average'] = calculate_average(self.data)> ]
+"30064771146" [label = <&lt;operator&gt;.assignment, 13<BR/>tmp0['std_dev'] = calculate_standard_deviation(...> ]
+"30064771137" [label = <&lt;operator&gt;.dictLiteral, 13<BR/>{}> ]
+"30064771139" [label = <&lt;operator&gt;.indexAccess, 13<BR/>tmp0['average']> ]
+"30064771141" [label = <calculate_average, 14<BR/>calculate_average(self.data)> ]
+"30064771143" [label = <&lt;operator&gt;.indexAccess, 13<BR/>tmp0['std_dev']> ]
+"30064771145" [label = <calculate_standard_deviation, 15<BR/>calculate_standard_deviation(self.data)> ]
+"30064771140" [label = <&lt;operator&gt;.fieldAccess, 14<BR/>self.data> ]
+"30064771144" [label = <&lt;operator&gt;.fieldAccess, 15<BR/>self.data> ]
+"55834574850" [label = <FIELD_IDENTIFIER, 14<BR/>data> ]
+"55834574851" [label = <FIELD_IDENTIFIER, 15<BR/>data> ]
+"111669149706" [label = <METHOD, 11<BR/>get_statistics> ]
+"128849018890" [label = <METHOD_RETURN, 11<BR/>ANY> ]
+  "146028888069" -> "128849018890" 
+  "30064771138" -> "30064771139" 
+  "30064771142" -> "30064771143" 
+  "30064771146" -> "146028888069" 
+  "30064771137" -> "30064771138" 
+  "30064771139" -> "55834574850" 
+  "30064771141" -> "30064771142" 
+  "30064771143" -> "55834574851" 
+  "30064771145" -> "30064771146" 
+  "30064771140" -> "30064771141" 
+  "30064771144" -> "30064771145" 
+  "55834574850" -> "30064771140" 
+  "55834574851" -> "30064771144" 
+  "111669149706" -> "30064771137" 
+}

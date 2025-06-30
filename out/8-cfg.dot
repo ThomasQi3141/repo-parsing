@@ -1,0 +1,18 @@
+digraph "&lt;body&gt;" {  
+node [shape="rect"];  
+"30064771136" [label = <&lt;operator&gt;.assignment, 8<BR/>__init__ = def __init__(...)> ]
+"30064771147" [label = <&lt;operator&gt;.assignment, 11<BR/>get_statistics = def get_statistics(...)> ]
+"30064771170" [label = <&lt;operator&gt;.assignment, 18<BR/>normalize_data = def normalize_data(...)> ]
+"124554051589" [label = <METHOD_REF, 8<BR/>def __init__(...)<BR/>__init__ = def __init__(...)> ]
+"124554051590" [label = <METHOD_REF, 11<BR/>def get_statistics(...)<BR/>get_statistics = def get_statistics(...)> ]
+"124554051591" [label = <METHOD_REF, 18<BR/>def normalize_data(...)<BR/>normalize_data = def normalize_data(...)> ]
+"111669149704" [label = <METHOD, 7<BR/>&lt;body&gt;> ]
+"128849018888" [label = <METHOD_RETURN, 7<BR/>ANY> ]
+  "30064771136" -> "124554051590" 
+  "30064771147" -> "124554051591" 
+  "30064771170" -> "128849018888" 
+  "124554051589" -> "30064771136" 
+  "124554051590" -> "30064771147" 
+  "124554051591" -> "30064771170" 
+  "111669149704" -> "124554051589" 
+}

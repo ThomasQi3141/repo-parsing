@@ -1,0 +1,18 @@
+digraph "&lt;metaClassCallHandler&gt;" {  
+node [shape="rect"];  
+"146028888072" [label = <RETURN, 8<BR/>return class DataProcessor&lt;meta&gt;(...).&lt;fakeNew&gt;...> ]
+"30064771172" [label = <, 8<BR/>class DataProcessor&lt;meta&gt;(...).&lt;fakeNew&gt;(data)> ]
+"30064771171" [label = <&lt;operator&gt;.fieldAccess, 8<BR/>class DataProcessor&lt;meta&gt;(...).&lt;fakeNew&gt;> ]
+"180388626436" [label = <TYPE_REF, 8<BR/>class DataProcessor&lt;meta&gt;(...)> ]
+"180388626435" [label = <TYPE_REF, 8<BR/>class DataProcessor&lt;meta&gt;(...)> ]
+"55834574859" [label = <FIELD_IDENTIFIER, 8<BR/>&lt;fakeNew&gt;> ]
+"111669149708" [label = <METHOD, 8<BR/>&lt;metaClassCallHandler&gt;> ]
+"128849018892" [label = <METHOD_RETURN, 8<BR/>sample_project/data_processor.py:&lt;module&gt;.DataProcessor> ]
+  "146028888072" -> "128849018892" 
+  "30064771172" -> "146028888072" 
+  "30064771171" -> "180388626436" 
+  "180388626436" -> "30064771172" 
+  "180388626435" -> "55834574859" 
+  "55834574859" -> "30064771171" 
+  "111669149708" -> "180388626435" 
+}

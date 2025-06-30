@@ -1,0 +1,40 @@
+digraph "compare_datasets" {  
+node [shape="rect"];  
+"30064771105" [label = <&lt;operator&gt;.assignment, 30<BR/>stats1 = process_dataset(data1)> ]
+"30064771107" [label = <&lt;operator&gt;.assignment, 31<BR/>stats2 = process_dataset(data2)> ]
+"146028888065" [label = <RETURN, 33<BR/>return { 'dataset1': stats1, 'd...> ]
+"30064771104" [label = <process_dataset, 30<BR/>process_dataset(data1)> ]
+"30064771106" [label = <process_dataset, 31<BR/>process_dataset(data2)> ]
+"30064771109" [label = <&lt;operator&gt;.assignment, 33<BR/>tmp1 = {}> ]
+"30064771111" [label = <&lt;operator&gt;.assignment, 33<BR/>tmp1['dataset1'] = stats1> ]
+"30064771113" [label = <&lt;operator&gt;.assignment, 33<BR/>tmp1['dataset2'] = stats2> ]
+"30064771119" [label = <&lt;operator&gt;.assignment, 33<BR/>tmp1['mean_difference'] = abs(stats1['average']...> ]
+"30064771108" [label = <&lt;operator&gt;.dictLiteral, 33<BR/>{}> ]
+"30064771110" [label = <&lt;operator&gt;.indexAccess, 33<BR/>tmp1['dataset1']> ]
+"30064771112" [label = <&lt;operator&gt;.indexAccess, 33<BR/>tmp1['dataset2']> ]
+"30064771114" [label = <&lt;operator&gt;.indexAccess, 33<BR/>tmp1['mean_difference']> ]
+"30064771118" [label = <abs, 36<BR/>abs(stats1['average'] - stats2['average'])> ]
+"30064771117" [label = <&lt;operator&gt;.subtraction, 36<BR/>stats1['average'] - stats2['average']> ]
+"30064771115" [label = <&lt;operator&gt;.indexAccess, 36<BR/>stats1['average']> ]
+"30064771116" [label = <&lt;operator&gt;.indexAccess, 36<BR/>stats2['average']> ]
+"111669149699" [label = <METHOD, 28<BR/>compare_datasets> ]
+"128849018883" [label = <METHOD_RETURN, 28<BR/>ANY> ]
+  "30064771105" -> "30064771106" 
+  "30064771107" -> "30064771108" 
+  "146028888065" -> "128849018883" 
+  "30064771104" -> "30064771105" 
+  "30064771106" -> "30064771107" 
+  "30064771109" -> "30064771110" 
+  "30064771111" -> "30064771112" 
+  "30064771113" -> "30064771114" 
+  "30064771119" -> "146028888065" 
+  "30064771108" -> "30064771109" 
+  "30064771110" -> "30064771111" 
+  "30064771112" -> "30064771113" 
+  "30064771114" -> "30064771115" 
+  "30064771118" -> "30064771119" 
+  "30064771117" -> "30064771118" 
+  "30064771115" -> "30064771116" 
+  "30064771116" -> "30064771117" 
+  "111669149699" -> "30064771104" 
+}

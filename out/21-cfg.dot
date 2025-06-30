@@ -1,0 +1,10 @@
+digraph "calculate_sum" {  
+node [shape="rect"];  
+"146028888078" [label = <RETURN, 7<BR/>return sum(numbers)> ]
+"30064771237" [label = <sum, 7<BR/>sum(numbers)> ]
+"111669149717" [label = <METHOD, 5<BR/>calculate_sum> ]
+"128849018901" [label = <METHOD_RETURN, 5<BR/>ANY> ]
+  "146028888078" -> "128849018901" 
+  "30064771237" -> "146028888078" 
+  "111669149717" -> "30064771237" 
+}

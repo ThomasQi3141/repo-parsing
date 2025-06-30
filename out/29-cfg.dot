@@ -1,0 +1,14 @@
+digraph "&lt;body&gt;" {  
+node [shape="rect"];  
+"30064771326" [label = <&lt;operator&gt;.assignment, 9<BR/>test_calculate_sum = def test_calculate_sum(...)> ]
+"30064771335" [label = <&lt;operator&gt;.assignment, 13<BR/>test_calculate_average = def test_calculate_ave...> ]
+"124554051600" [label = <METHOD_REF, 9<BR/>def test_calculate_sum(...)<BR/>test_calculate_sum = def test_calculate_sum(...)> ]
+"124554051601" [label = <METHOD_REF, 13<BR/>def test_calculate_average(...)<BR/>test_calculate_average = def test_calculate_ave...> ]
+"111669149725" [label = <METHOD, 8<BR/>&lt;body&gt;> ]
+"128849018909" [label = <METHOD_RETURN, 8<BR/>ANY> ]
+  "30064771326" -> "124554051601" 
+  "30064771335" -> "128849018909" 
+  "124554051600" -> "30064771326" 
+  "124554051601" -> "30064771335" 
+  "111669149725" -> "124554051600" 
+}

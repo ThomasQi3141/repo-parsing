@@ -1,0 +1,6 @@
+digraph "&lt;operator&gt;.subtraction" {  
+node [shape="rect"];  
+"111669149739" [label = <METHOD<BR/>&lt;operator&gt;.subtraction> ]
+"128849018923" [label = <METHOD_RETURN<BR/>ANY> ]
+  "111669149739" -> "128849018923" 
+}

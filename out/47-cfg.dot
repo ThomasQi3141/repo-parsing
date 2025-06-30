@@ -1,0 +1,6 @@
+digraph "&lt;operator&gt;.equals" {  
+node [shape="rect"];  
+"111669149743" [label = <METHOD<BR/>&lt;operator&gt;.equals> ]
+"128849018927" [label = <METHOD_RETURN<BR/>ANY> ]
+  "111669149743" -> "128849018927" 
+}

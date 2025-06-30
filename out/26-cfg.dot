@@ -1,0 +1,40 @@
+digraph "load_from_json" {  
+node [shape="rect"];  
+"30064771289" [label = <&lt;operator&gt;.assignment, 29<BR/>manager_tmp4 = open(filename, 'r')> ]
+"30064771291" [label = <&lt;operator&gt;.assignment, 29<BR/>enter_tmp5 = manager_tmp4.__enter__> ]
+"30064771293" [label = <&lt;operator&gt;.assignment, 29<BR/>exit_tmp6 = manager_tmp4.__exit__> ]
+"30064771295" [label = <&lt;operator&gt;.assignment, 29<BR/>value_tmp7 = enter_tmp5()> ]
+"30064771288" [label = <open, 29<BR/>open(filename, 'r')> ]
+"30064771290" [label = <&lt;operator&gt;.fieldAccess, 29<BR/>manager_tmp4.__enter__> ]
+"30064771292" [label = <&lt;operator&gt;.fieldAccess, 29<BR/>manager_tmp4.__exit__> ]
+"30064771294" [label = <, 29<BR/>enter_tmp5()> ]
+"55834574870" [label = <FIELD_IDENTIFIER, 29<BR/>__enter__> ]
+"55834574871" [label = <FIELD_IDENTIFIER, 29<BR/>__exit__> ]
+"30064771296" [label = <&lt;operator&gt;.assignment, 29<BR/>f = value_tmp7> ]
+"146028888083" [label = <RETURN, 30<BR/>return json.load(f)> ]
+"30064771287" [label = <load, 30<BR/>json.load(f)> ]
+"30064771297" [label = <, 29<BR/>__exit__()> ]
+"30064771286" [label = <&lt;operator&gt;.fieldAccess, 30<BR/>json.load> ]
+"55834574869" [label = <FIELD_IDENTIFIER, 30<BR/>load> ]
+"111669149722" [label = <METHOD, 19<BR/>load_from_json> ]
+"128849018906" [label = <METHOD_RETURN, 19<BR/>typing.Dict> ]
+  "30064771289" -> "55834574870" 
+  "30064771291" -> "55834574871" 
+  "30064771293" -> "30064771294" 
+  "30064771295" -> "30064771296" 
+  "30064771288" -> "30064771289" 
+  "30064771290" -> "30064771291" 
+  "30064771292" -> "30064771293" 
+  "30064771294" -> "30064771295" 
+  "55834574870" -> "30064771290" 
+  "55834574871" -> "30064771292" 
+  "30064771296" -> "55834574869" 
+  "146028888083" -> "128849018906" 
+  "30064771287" -> "146028888083" 
+  "30064771287" -> "30064771297" 
+  "30064771297" -> "30064771297" 
+  "30064771297" -> "128849018906" 
+  "30064771286" -> "30064771287" 
+  "55834574869" -> "30064771286" 
+  "111669149722" -> "30064771288" 
+}

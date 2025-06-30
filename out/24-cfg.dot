@@ -1,0 +1,34 @@
+digraph "&lt;module&gt;" {  
+node [shape="rect"];  
+"30064771265" [label = <&lt;operator&gt;.assignment, 1<BR/>open = __builtins__.open> ]
+"30064771266" [label = <&lt;operator&gt;.assignment, 1<BR/>str = __builtins__.str> ]
+"30064771268" [label = <&lt;operator&gt;.assignment, 5<BR/>json = import(, json)> ]
+"30064771285" [label = <&lt;operator&gt;.assignment, 8<BR/>save_to_json = def save_to_json(...)> ]
+"30064771298" [label = <&lt;operator&gt;.assignment, 19<BR/>load_from_json = def load_from_json(...)> ]
+"180388626441" [label = <TYPE_REF, 1<BR/>__builtins__.open> ]
+"180388626442" [label = <TYPE_REF, 1<BR/>__builtins__.str> ]
+"30064771267" [label = <import, 5<BR/>import(, json)> ]
+"30064771270" [label = <&lt;operator&gt;.assignment, 6<BR/>Any = import(typing, Any)> ]
+"30064771272" [label = <&lt;operator&gt;.assignment, 6<BR/>Dict = import(typing, Dict)> ]
+"124554051597" [label = <METHOD_REF, 8<BR/>def save_to_json(...)<BR/>save_to_json = def save_to_json(...)> ]
+"124554051598" [label = <METHOD_REF, 19<BR/>def load_from_json(...)<BR/>load_from_json = def load_from_json(...)> ]
+"30064771269" [label = <import, 6<BR/>import(typing, Any)> ]
+"30064771271" [label = <import, 6<BR/>import(typing, Dict)> ]
+"111669149720" [label = <METHOD, 1<BR/>&lt;module&gt;> ]
+"128849018904" [label = <METHOD_RETURN, 1<BR/>ANY> ]
+  "30064771265" -> "180388626442" 
+  "30064771266" -> "30064771267" 
+  "30064771268" -> "30064771269" 
+  "30064771285" -> "124554051598" 
+  "30064771298" -> "128849018904" 
+  "180388626441" -> "30064771265" 
+  "180388626442" -> "30064771266" 
+  "30064771267" -> "30064771268" 
+  "30064771270" -> "30064771271" 
+  "30064771272" -> "124554051597" 
+  "124554051597" -> "30064771285" 
+  "124554051598" -> "30064771298" 
+  "30064771269" -> "30064771270" 
+  "30064771271" -> "30064771272" 
+  "111669149720" -> "180388626441" 
+}

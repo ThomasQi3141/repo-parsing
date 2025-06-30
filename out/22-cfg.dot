@@ -1,0 +1,19 @@
+digraph "calculate_average" {  
+node [shape="rect"];  
+"146028888080" [label = <RETURN, 13<BR/>return sum(numbers) / len(numbers)> ]
+"30064771239" [label = <&lt;operator&gt;.logicalNot, 11<BR/>not numbers> ]
+"30064771242" [label = <&lt;operator&gt;.division, 13<BR/>sum(numbers) / len(numbers)> ]
+"146028888079" [label = <RETURN, 12<BR/>return 0> ]
+"30064771240" [label = <sum, 13<BR/>sum(numbers)> ]
+"30064771241" [label = <len, 13<BR/>len(numbers)> ]
+"111669149718" [label = <METHOD, 9<BR/>calculate_average> ]
+"128849018902" [label = <METHOD_RETURN, 9<BR/>__builtin.int> ]
+  "146028888080" -> "128849018902" 
+  "30064771239" -> "146028888079" 
+  "30064771239" -> "30064771240" 
+  "30064771242" -> "146028888080" 
+  "146028888079" -> "128849018902" 
+  "30064771240" -> "30064771241" 
+  "30064771241" -> "30064771242" 
+  "111669149718" -> "30064771239" 
+}

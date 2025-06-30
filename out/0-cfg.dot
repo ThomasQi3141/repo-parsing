@@ -1,0 +1,8 @@
+digraph "&lt;module&gt;" {  
+node [shape="rect"];  
+"30064771072" [label = <&lt;operator&gt;.assignment, 5<BR/>__version__ = &quot;0.1.0&quot;> ]
+"111669149696" [label = <METHOD, 1<BR/>&lt;module&gt;> ]
+"128849018880" [label = <METHOD_RETURN, 1<BR/>ANY> ]
+  "30064771072" -> "128849018880" 
+  "111669149696" -> "30064771072" 
+}

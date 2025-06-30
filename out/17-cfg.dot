@@ -1,0 +1,18 @@
+digraph "process_dataset" {  
+node [shape="rect"];  
+"30064771183" [label = <&lt;operator&gt;.assignment, 28<BR/>processor = DataProcessor(data)> ]
+"146028888077" [label = <RETURN, 29<BR/>return processor.get_statistics()> ]
+"30064771182" [label = <DataProcessor, 28<BR/>DataProcessor(data)> ]
+"30064771185" [label = <get_statistics, 29<BR/>processor.get_statistics()> ]
+"30064771184" [label = <&lt;operator&gt;.fieldAccess, 29<BR/>processor.get_statistics> ]
+"55834574861" [label = <FIELD_IDENTIFIER, 29<BR/>get_statistics> ]
+"111669149713" [label = <METHOD, 26<BR/>process_dataset> ]
+"128849018897" [label = <METHOD_RETURN, 26<BR/>ANY> ]
+  "30064771183" -> "55834574861" 
+  "146028888077" -> "128849018897" 
+  "30064771182" -> "30064771183" 
+  "30064771185" -> "146028888077" 
+  "30064771184" -> "30064771185" 
+  "55834574861" -> "30064771184" 
+  "111669149713" -> "30064771182" 
+}
