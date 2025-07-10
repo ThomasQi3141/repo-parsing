@@ -1,0 +1,469 @@
+id,label,graph_id
+30064771121,"<operator>.assignment, 1 len = __builtins__.len",4
+30064771122,"<operator>.assignment, 1 sum = __builtins__.sum",4
+30064771124,"<operator>.assignment, 5 calculate_sum = def calculate_sum(...)",4
+30064771129,"<operator>.assignment, 17 calculate_average = def calculate_average(...)",4
+180388626433,"TYPE_REF, 1 __builtins__.len",4
+180388626434,"TYPE_REF, 1 __builtins__.sum",4
+124554051586,"METHOD_REF, 5 def calculate_sum(...) calculate_sum = def calculate_sum(...)",4
+124554051587,"METHOD_REF, 17 def calculate_average(...) calculate_average = def calculate_average(...)",4
+111669149700,"METHOD, 1 <module>",4
+128849018884,"METHOD_RETURN, 1 ANY",4
+30064771183,"<operator>.assignment, 28 processor = DataProcessor(data)",17
+146028888077,"RETURN, 29 return processor.get_statistics()",17
+30064771182,"DataProcessor, 28 DataProcessor(data)",17
+30064771185,"get_statistics, 29 processor.get_statistics()",17
+30064771184,"<operator>.fieldAccess, 29 processor.get_statistics",17
+55834574861,"FIELD_IDENTIFIER, 29 get_statistics",17
+111669149713,"METHOD, 26 process_dataset",17
+128849018897,"METHOD_RETURN, 26 ANY",17
+30064771313,"<operator>.assignment, 5 unittest = import(, unittest)",28
+30064771312,"import, 5 import(, unittest)",28
+30064771315,"<operator>.assignment, 6 calculate_sum = import(sample_project.core, cal...",28
+30064771317,"<operator>.assignment, 6 calculate_average = import(sample_project.core,...",28
+30064771344,"<operator>.assignment, 8 TestCore = class TestCore<meta>(...)",28
+30064771345,", 8 def <body>(...)()",28
+30064771346,"<operator>.equals, 17 __name__ == '__main__'",28
+30064771314,"import, 6 import(sample_project.core, calculate_sum)",28
+30064771316,"import, 6 import(sample_project.core, calculate_average)",28
+180388626446,"TYPE_REF, 8 class TestCore<meta>(...)",28
+124554051599,"METHOD_REF, 8 def <body>(...) def <body>(...)()",28
+30064771348,"main, 18 unittest.main()",28
+30064771347,"<operator>.fieldAccess, 18 unittest.main",28
+55834574879,"FIELD_IDENTIFIER, 18 main",28
+111669149724,"METHOD, 1 <module>",28
+128849018908,"METHOD_RETURN, 1 ANY",28
+111669149734,METHOD <operator>.logicalNot,38
+128849018918,METHOD_RETURN ANY,38
+30064771330,"assertEqual, 14 self.assertEqual(calculate_average([1, 2, 3, 4,...",31
+30064771334,"assertEqual, 15 self.assertEqual(calculate_average([]), 0)",31
+30064771329,"<operator>.fieldAccess, 14 self.assertEqual",31
+30064771328,"calculate_average, 14 calculate_average([1, 2, 3, 4, 5])",31
+30064771333,"<operator>.fieldAccess, 15 self.assertEqual",31
+30064771332,"calculate_average, 15 calculate_average([])",31
+55834574875,"FIELD_IDENTIFIER, 14 assertEqual",31
+30064771327,"<operator>.listLiteral, 14 [1, 2, 3, 4, 5]",31
+55834574876,"FIELD_IDENTIFIER, 15 assertEqual",31
+30064771331,"<operator>.listLiteral, 15 []",31
+111669149727,"METHOD, 13 test_calculate_average",31
+128849018911,"METHOD_RETURN, 13 ANY",31
+146028888078,"RETURN, 7 return sum(numbers)",21
+30064771237,"sum, 7 sum(numbers)",21
+111669149717,"METHOD, 5 calculate_sum",21
+128849018901,"METHOD_RETURN, 5 ANY",21
+111669149739,METHOD <operator>.subtraction,43
+128849018923,METHOD_RETURN ANY,43
+30064771235,"<operator>.assignment, 1 len = __builtins__.len",20
+30064771236,"<operator>.assignment, 1 sum = __builtins__.sum",20
+30064771238,"<operator>.assignment, 5 calculate_sum = def calculate_sum(...)",20
+30064771243,"<operator>.assignment, 9 calculate_average = def calculate_average(...)",20
+30064771264,"<operator>.assignment, 15 calculate_standard_deviation = def calculate_st...",20
+180388626439,"TYPE_REF, 1 __builtins__.len",20
+180388626440,"TYPE_REF, 1 __builtins__.sum",20
+124554051594,"METHOD_REF, 5 def calculate_sum(...) calculate_sum = def calculate_sum(...)",20
+124554051595,"METHOD_REF, 9 def calculate_average(...) calculate_average = def calculate_average(...)",20
+124554051596,"METHOD_REF, 15 def calculate_standard_deviation(...) calculate_standard_deviation = def calculate_st...",20
+111669149716,"METHOD, 1 <module>",20
+128849018900,"METHOD_RETURN, 1 ANY",20
+30064771321,"assertEqual, 10 self.assertEqual(calculate_sum([1, 2, 3, 4, 5])...",30
+30064771325,"assertEqual, 11 self.assertEqual(calculate_sum([]), 0)",30
+30064771320,"<operator>.fieldAccess, 10 self.assertEqual",30
+30064771319,"calculate_sum, 10 calculate_sum([1, 2, 3, 4, 5])",30
+30064771324,"<operator>.fieldAccess, 11 self.assertEqual",30
+30064771323,"calculate_sum, 11 calculate_sum([])",30
+55834574873,"FIELD_IDENTIFIER, 10 assertEqual",30
+30064771318,"<operator>.listLiteral, 10 [1, 2, 3, 4, 5]",30
+55834574874,"FIELD_IDENTIFIER, 11 assertEqual",30
+30064771322,"<operator>.listLiteral, 11 []",30
+111669149726,"METHOD, 9 test_calculate_sum",30
+128849018910,"METHOD_RETURN, 9 ANY",30
+111669149738,METHOD <operator>.genExp,42
+128849018922,METHOD_RETURN ANY,42
+146028888066,"RETURN, 15 return sum(numbers)",5
+30064771123,"sum, 15 sum(numbers)",5
+111669149701,"METHOD, 5 calculate_sum",5
+128849018885,"METHOD_RETURN, 5 ANY",5
+146028888076,"RETURN, 18 return normalize_data(self)",16
+30064771179,"sample_project/data_processor.py:<module>.DataProcessor.normalize_data, 18 normalize_data(self)",16
+111669149712,"METHOD, 18 normalize_data<metaClassAdapter>",16
+128849018896,"METHOD_RETURN, 18 ANY",16
+111669149735,METHOD <operator>.listLiteral,39
+128849018919,METHOD_RETURN ANY,39
+30064771326,"<operator>.assignment, 9 test_calculate_sum = def test_calculate_sum(...)",29
+30064771335,"<operator>.assignment, 13 test_calculate_average = def test_calculate_ave...",29
+124554051600,"METHOD_REF, 9 def test_calculate_sum(...) test_calculate_sum = def test_calculate_sum(...)",29
+124554051601,"METHOD_REF, 13 def test_calculate_average(...) test_calculate_average = def test_calculate_ave...",29
+111669149725,"METHOD, 8 <body>",29
+128849018909,"METHOD_RETURN, 8 ANY",29
+111669149736,METHOD <operator>.formatString,40
+128849018920,METHOD_RETURN ANY,40
+146028888084,"RETURN, 8 return class TestCore<meta>(...).<fakeNew>()",32
+30064771337,", 8 class TestCore<meta>(...).<fakeNew>()",32
+30064771336,"<operator>.fieldAccess, 8 class TestCore<meta>(...).<fakeNew>",32
+180388626445,"TYPE_REF, 8 class TestCore<meta>(...)",32
+180388626444,"TYPE_REF, 8 class TestCore<meta>(...)",32
+55834574877,"FIELD_IDENTIFIER, 8 <fakeNew>",32
+111669149728,"METHOD, 8 <metaClassCallHandler>",32
+128849018912,"METHOD_RETURN, 8 tests/test_core.py:<module>.TestCore",32
+146028888080,"RETURN, 13 return sum(numbers) / len(numbers)",22
+30064771239,"<operator>.logicalNot, 11 not numbers",22
+30064771242,"<operator>.division, 13 sum(numbers) / len(numbers)",22
+146028888079,"RETURN, 12 return 0",22
+30064771240,"sum, 13 sum(numbers)",22
+30064771241,"len, 13 len(numbers)",22
+111669149718,"METHOD, 9 calculate_average",22
+128849018902,"METHOD_RETURN, 9 __builtin.int",22
+146028888074,"RETURN, 8 return __init__(self, data)",14
+30064771177,"sample_project/data_processor.py:<module>.DataProcessor.__init__, 8 __init__(self, data)",14
+111669149710,"METHOD, 8 __init__<metaClassAdapter>",14
+128849018894,"METHOD_RETURN, 8 ANY",14
+30064771186,"<operator>.assignment, 26 process_dataset = def process_dataset(...)",7
+30064771131,"<operator>.assignment, 5 calculate_average = import(.math_utils, calcula...",7
+30064771133,"<operator>.assignment, 5 calculate_standard_deviation = import(.math_uti...",7
+30064771180,"<operator>.assignment, 7 DataProcessor = class DataProcessor<meta>(...)",7
+30064771181,", 7 def <body>(...)()",7
+124554051592,"METHOD_REF, 26 def process_dataset(...) process_dataset = def process_dataset(...)",7
+30064771130,"import, 5 import(.math_utils, calculate_average)",7
+30064771132,"import, 5 import(.math_utils, calculate_standard_deviation)",7
+180388626437,"TYPE_REF, 7 class DataProcessor<meta>(...)",7
+124554051588,"METHOD_REF, 7 def <body>(...) def <body>(...)()",7
+111669149703,"METHOD, 1 <module>",7
+128849018887,"METHOD_RETURN, 1 ANY",7
+111669149745,METHOD <operator>.assignment,49
+128849018929,METHOD_RETURN ANY,49
+146028888075,"RETURN, 11 return get_statistics(self)",15
+30064771178,"sample_project/data_processor.py:<module>.DataProcessor.get_statistics, 11 get_statistics(self)",15
+111669149711,"METHOD, 11 get_statistics<metaClassAdapter>",15
+128849018895,"METHOD_RETURN, 11 ANY",15
+146028888068,"RETURN, 29 return sum(numbers) / len(numbers)",6
+30064771125,"<operator>.logicalNot, 27 not numbers",6
+30064771128,"<operator>.division, 29 sum(numbers) / len(numbers)",6
+146028888067,"RETURN, 28 return 0",6
+30064771126,"sum, 29 sum(numbers)",6
+30064771127,"len, 29 len(numbers)",6
+111669149702,"METHOD, 17 calculate_average",6
+128849018886,"METHOD_RETURN, 17 __builtin.int",6
+111669149744,METHOD <operator>.indexAccess,48
+128849018928,METHOD_RETURN ANY,48
+111669149737,METHOD <operator>.fieldAccess,41
+128849018921,METHOD_RETURN ANY,41
+30064771246,"<operator>.assignment, 19 mean = calculate_average(numbers)",23
+30064771260,"<operator>.assignment, 20 squared_diff_sum = sum(tmp0 = <operator>.genExp...",23
+146028888082,"RETURN, 21 return (squared_diff_sum / len(numbers)) ** 0.5",23
+30064771244,"<operator>.logicalNot, 17 not numbers",23
+30064771245,"calculate_average, 19 calculate_average(numbers)",23
+30064771259,"sum, 20 sum(tmp0 = <operator>.genExp tmp1 = numbers.__i...",23
+30064771263,"<operator>.exponentiation, 21 squared_diff_sum / len(numbers) ** 0.5",23
+146028888081,"RETURN, 18 return 0",23
+30064771262,"<operator>.division, 21 squared_diff_sum / len(numbers)",23
+30064771248,"<operator>.assignment, 20 tmp0 = <operator>.genExp",23
+30064771261,"len, 21 len(numbers)",23
+30064771247,"<operator>.genExp, 20 <operator>.genExp",23
+30064771255,"<operator>.assignment, 20 tmp1 = numbers.__iter__()",23
+30064771254,"__iter__, 20 numbers.__iter__()",23
+184683593729,"UNKNOWN, 20 iteratorNonEmptyOrException",23
+30064771253,"<operator>.fieldAccess, 20 numbers.__iter__",23
+30064771258,"<operator>.assignment, 20 x = tmp1.__next__()",23
+30064771252,"append, 20 tmp0.append(x - mean ** 2)",23
+55834574864,"FIELD_IDENTIFIER, 20 __iter__",23
+30064771257,"__next__, 20 tmp1.__next__()",23
+30064771251,"<operator>.fieldAccess, 20 tmp0.append",23
+30064771250,"<operator>.exponentiation, 20 x - mean ** 2",23
+30064771256,"<operator>.fieldAccess, 20 tmp1.__next__",23
+55834574863,"FIELD_IDENTIFIER, 20 append",23
+30064771249,"<operator>.subtraction, 20 x - mean",23
+55834574865,"FIELD_IDENTIFIER, 20 __next__",23
+111669149719,"METHOD, 15 calculate_standard_deviation",23
+128849018903,"METHOD_RETURN, 15 __builtin.int",23
+30064771339,"<operator>.assignment, 8 __newInstance =",33
+30064771341,"__init__, 8 cls.__init__(__newInstance)",33
+146028888085,"RETURN, 8 return __newInstance",33
+30064771338,"<operator>.alloc, 8 ",33
+30064771340,"<operator>.fieldAccess, 8 cls.__init__",33
+55834574878,"FIELD_IDENTIFIER, 8 __init__",33
+111669149729,"METHOD, 8 <fakeNew>",33
+128849018913,"METHOD_RETURN, 8 ANY",33
+111669149740,METHOD <operator>.formattedValue,44
+128849018924,METHOD_RETURN ANY,44
+111669149732,METHOD <operator>.division,36
+128849018916,METHOD_RETURN ANY,36
+30064771289,"<operator>.assignment, 29 manager_tmp4 = open(filename, 'r')",26
+30064771291,"<operator>.assignment, 29 enter_tmp5 = manager_tmp4.__enter__",26
+30064771293,"<operator>.assignment, 29 exit_tmp6 = manager_tmp4.__exit__",26
+30064771295,"<operator>.assignment, 29 value_tmp7 = enter_tmp5()",26
+30064771288,"open, 29 open(filename, 'r')",26
+30064771290,"<operator>.fieldAccess, 29 manager_tmp4.__enter__",26
+30064771292,"<operator>.fieldAccess, 29 manager_tmp4.__exit__",26
+30064771294,", 29 enter_tmp5()",26
+55834574870,"FIELD_IDENTIFIER, 29 __enter__",26
+55834574871,"FIELD_IDENTIFIER, 29 __exit__",26
+30064771296,"<operator>.assignment, 29 f = value_tmp7",26
+146028888083,"RETURN, 30 return json.load(f)",26
+30064771287,"load, 30 json.load(f)",26
+30064771297,", 29 __exit__()",26
+30064771286,"<operator>.fieldAccess, 30 json.load",26
+55834574869,"FIELD_IDENTIFIER, 30 load",26
+111669149722,"METHOD, 19 load_from_json",26
+128849018906,"METHOD_RETURN, 19 typing.Dict",26
+30064771199,"<operator>.assignment, 11 data1 = [1, 2, 3, 4, 5]",19
+30064771201,"<operator>.assignment, 12 data2 = [2, 4, 6, 8, 10]",19
+30064771202,"print, 15 print(""Math Utilities:"")",19
+30064771206,"print, 16 print(f""Average of data1: {calculate_average(da...",19
+30064771210,"print, 17 print(f""Standard deviation of data1: {calculate...",19
+30064771211,"print, 20 print(""\nData Processing:"")",19
+30064771213,"<operator>.assignment, 21 processor = DataProcessor(data1)",19
+30064771216,"<operator>.assignment, 22 stats = processor.get_statistics()",19
+30064771219,"print, 23 print(f""Statistics: {stats}"")",19
+30064771220,"print, 26 print(""\nAnalysis:"")",19
+30064771222,"<operator>.assignment, 27 analysis = analyze_data(data1)",19
+30064771225,"print, 28 print(f""Analysis results: {analysis}"")",19
+30064771226,"print, 31 print(""\nComparison:"")",19
+30064771228,"<operator>.assignment, 32 comparison = compare_datasets(data1, data2)",19
+30064771231,"print, 33 print(f""Comparison results: {comparison}"")",19
+30064771198,"<operator>.listLiteral, 11 [1, 2, 3, 4, 5]",19
+30064771200,"<operator>.listLiteral, 12 [2, 4, 6, 8, 10]",19
+30064771205,"<operator>.formatString, 16 f""Average of data1: {calculate_average(data1)}""",19
+30064771209,"<operator>.formatString, 17 f""Standard deviation of data1: {calculate_stand...",19
+30064771212,"DataProcessor, 21 DataProcessor(data1)",19
+30064771215,"get_statistics, 22 processor.get_statistics()",19
+30064771218,"<operator>.formatString, 23 f""Statistics: {stats}""",19
+30064771221,"analyze_data, 27 analyze_data(data1)",19
+30064771224,"<operator>.formatString, 28 f""Analysis results: {analysis}""",19
+30064771227,"compare_datasets, 32 compare_datasets(data1, data2)",19
+30064771230,"<operator>.formatString, 33 f""Comparison results: {comparison}""",19
+30064771204,"<operator>.formattedValue, 16 {calculate_average(data1)}",19
+30064771208,"<operator>.formattedValue, 17 {calculate_standard_deviation(data1)}",19
+30064771214,"<operator>.fieldAccess, 22 processor.get_statistics",19
+30064771217,"<operator>.formattedValue, 23 {stats}",19
+30064771223,"<operator>.formattedValue, 28 {analysis}",19
+30064771229,"<operator>.formattedValue, 33 {comparison}",19
+30064771203,"calculate_average, 16 calculate_average(data1)",19
+30064771207,"calculate_standard_deviation, 17 calculate_standard_deviation(data1)",19
+55834574862,"FIELD_IDENTIFIER, 22 get_statistics",19
+111669149715,"METHOD, 9 main",19
+128849018899,"METHOD_RETURN, 9 ANY",19
+146028888069,"RETURN, 13 return { 'average': calculate_avera...",10
+30064771138,"<operator>.assignment, 13 tmp0 = {}",10
+30064771142,"<operator>.assignment, 13 tmp0['average'] = calculate_average(self.data)",10
+30064771146,"<operator>.assignment, 13 tmp0['std_dev'] = calculate_standard_deviation(...",10
+30064771137,"<operator>.dictLiteral, 13 {}",10
+30064771139,"<operator>.indexAccess, 13 tmp0['average']",10
+30064771141,"calculate_average, 14 calculate_average(self.data)",10
+30064771143,"<operator>.indexAccess, 13 tmp0['std_dev']",10
+30064771145,"calculate_standard_deviation, 15 calculate_standard_deviation(self.data)",10
+30064771140,"<operator>.fieldAccess, 14 self.data",10
+30064771144,"<operator>.fieldAccess, 15 self.data",10
+55834574850,"FIELD_IDENTIFIER, 14 data",10
+55834574851,"FIELD_IDENTIFIER, 15 data",10
+111669149706,"METHOD, 11 get_statistics",10
+128849018890,"METHOD_RETURN, 11 ANY",10
+30064771105,"<operator>.assignment, 30 stats1 = process_dataset(data1)",3
+30064771107,"<operator>.assignment, 31 stats2 = process_dataset(data2)",3
+146028888065,"RETURN, 33 return { 'dataset1': stats1, 'd...",3
+30064771104,"process_dataset, 30 process_dataset(data1)",3
+30064771106,"process_dataset, 31 process_dataset(data2)",3
+30064771109,"<operator>.assignment, 33 tmp1 = {}",3
+30064771111,"<operator>.assignment, 33 tmp1['dataset1'] = stats1",3
+30064771113,"<operator>.assignment, 33 tmp1['dataset2'] = stats2",3
+30064771119,"<operator>.assignment, 33 tmp1['mean_difference'] = abs(stats1['average']...",3
+30064771108,"<operator>.dictLiteral, 33 {}",3
+30064771110,"<operator>.indexAccess, 33 tmp1['dataset1']",3
+30064771112,"<operator>.indexAccess, 33 tmp1['dataset2']",3
+30064771114,"<operator>.indexAccess, 33 tmp1['mean_difference']",3
+30064771118,"abs, 36 abs(stats1['average'] - stats2['average'])",3
+30064771117,"<operator>.subtraction, 36 stats1['average'] - stats2['average']",3
+30064771115,"<operator>.indexAccess, 36 stats1['average']",3
+30064771116,"<operator>.indexAccess, 36 stats2['average']",3
+111669149699,"METHOD, 28 compare_datasets",3
+128849018883,"METHOD_RETURN, 28 ANY",3
+30064771150,"<operator>.assignment, 20 avg = calculate_average(self.data)",11
+30064771153,"<operator>.assignment, 21 std = calculate_standard_deviation(self.data)",11
+146028888071,"RETURN, 24 return [(x - avg) / std for x in self.data]",11
+30064771149,"calculate_average, 20 calculate_average(self.data)",11
+30064771152,"calculate_standard_deviation, 21 calculate_standard_deviation(self.data)",11
+30064771154,"<operator>.equals, 22 std == 0",11
+30064771148,"<operator>.fieldAccess, 20 self.data",11
+30064771151,"<operator>.fieldAccess, 21 self.data",11
+146028888070,"RETURN, 23 return self.data",11
+30064771157,"<operator>.assignment, 24 tmp1 = []",11
+55834574852,"FIELD_IDENTIFIER, 20 data",11
+55834574853,"FIELD_IDENTIFIER, 21 data",11
+30064771155,"<operator>.fieldAccess, 23 self.data",11
+30064771156,"<operator>.listLiteral, 24 []",11
+30064771166,"<operator>.assignment, 24 tmp2 = tmp3 = self.data tmp3.__iter__()",11
+55834574854,"FIELD_IDENTIFIER, 23 data",11
+184683593728,"UNKNOWN, 24 iteratorNonEmptyOrException",11
+30064771163,"<operator>.assignment, 24 tmp3 = self.data",11
+30064771165,"__iter__, 24 tmp3.__iter__()",11
+30064771169,"<operator>.assignment, 24 x = tmp2.__next__()",11
+30064771161,"append, 24 tmp1.append(x - avg / std)",11
+30064771162,"<operator>.fieldAccess, 24 self.data",11
+30064771164,"<operator>.fieldAccess, 24 tmp3.__iter__",11
+30064771168,"__next__, 24 tmp2.__next__()",11
+30064771160,"<operator>.fieldAccess, 24 tmp1.append",11
+30064771159,"<operator>.division, 24 x - avg / std",11
+55834574856,"FIELD_IDENTIFIER, 24 data",11
+55834574857,"FIELD_IDENTIFIER, 24 __iter__",11
+30064771167,"<operator>.fieldAccess, 24 tmp2.__next__",11
+55834574855,"FIELD_IDENTIFIER, 24 append",11
+30064771158,"<operator>.subtraction, 24 x - avg",11
+55834574858,"FIELD_IDENTIFIER, 24 __next__",11
+111669149707,"METHOD, 18 normalize_data",11
+128849018891,"METHOD_RETURN, 18 ANY",11
+30064771083,"<operator>.assignment, 11 stats = process_dataset(data)",2
+30064771085,"<operator>.assignment, 14 processor = DataProcessor(data)",2
+30064771088,"<operator>.assignment, 15 normalized = processor.normalize_data()",2
+30064771090,"<operator>.assignment, 18 total = calculate_sum(data)",2
+30064771092,"<operator>.assignment, 19 mean = calculate_average(data)",2
+146028888064,"RETURN, 21 return { 'basic_stats': stats, ...",2
+30064771082,"process_dataset, 11 process_dataset(data)",2
+30064771084,"DataProcessor, 14 DataProcessor(data)",2
+30064771087,"normalize_data, 15 processor.normalize_data()",2
+30064771089,"calculate_sum, 18 calculate_sum(data)",2
+30064771091,"calculate_average, 19 calculate_average(data)",2
+30064771086,"<operator>.fieldAccess, 15 processor.normalize_data",2
+30064771094,"<operator>.assignment, 21 tmp0 = {}",2
+30064771096,"<operator>.assignment, 21 tmp0['basic_stats'] = stats",2
+30064771098,"<operator>.assignment, 21 tmp0['normalized_data'] = normalized",2
+30064771100,"<operator>.assignment, 21 tmp0['total'] = total",2
+30064771102,"<operator>.assignment, 21 tmp0['mean'] = mean",2
+55834574848,"FIELD_IDENTIFIER, 15 normalize_data",2
+30064771093,"<operator>.dictLiteral, 21 {}",2
+30064771095,"<operator>.indexAccess, 21 tmp0['basic_stats']",2
+30064771097,"<operator>.indexAccess, 21 tmp0['normalized_data']",2
+30064771099,"<operator>.indexAccess, 21 tmp0['total']",2
+30064771101,"<operator>.indexAccess, 21 tmp0['mean']",2
+111669149698,"METHOD, 8 analyze_data",2
+128849018882,"METHOD_RETURN, 8 ANY",2
+111669149741,METHOD <operator>.dictLiteral,45
+128849018925,METHOD_RETURN ANY,45
+30064771299,"<operator>.assignment, 1 open = __builtins__.open",27
+30064771311,"setup, 3 setup(name = ""sample_project"", version = ""0.1.0...",27
+180388626443,"TYPE_REF, 1 __builtins__.open",27
+30064771301,"<operator>.assignment, 1 setup = import(setuptools, setup)",27
+30064771303,"<operator>.assignment, 1 find_packages = import(setuptools, find_packages)",27
+30064771304,"find_packages, 6 find_packages()",27
+30064771305,"<operator>.listLiteral, 7 [""pytest>=7.4.3""]",27
+30064771310,"<operator>.listLiteral, 16 [""Programming Language :: Python :: 3"", ""Licens...",27
+30064771300,"import, 1 import(setuptools, setup)",27
+30064771302,"import, 1 import(setuptools, find_packages)",27
+30064771307,"<operator>.assignment, 13 tmp0 = open(""README.md"")",27
+30064771309,"read, 13 tmp0.read()",27
+30064771306,"open, 13 open(""README.md"")",27
+30064771308,"<operator>.fieldAccess, 13 tmp0.read",27
+55834574872,"FIELD_IDENTIFIER, 13 read",27
+111669149723,"METHOD, 1 <module>",27
+128849018907,"METHOD_RETURN, 1 ANY",27
+111669149733,METHOD <operator>.exponentiation,37
+128849018917,METHOD_RETURN ANY,37
+30064771187,"<operator>.assignment, 1 print = __builtins__.print",18
+30064771193,"<operator>.assignment, 6 DataProcessor = import(.data_processor, DataPro...",18
+30064771232,"<operator>.assignment, 9 main = def main(...)",18
+180388626438,"TYPE_REF, 1 __builtins__.print",18
+30064771189,"<operator>.assignment, 5 calculate_average = import(.math_utils, calcula...",18
+30064771191,"<operator>.assignment, 5 calculate_standard_deviation = import(.math_uti...",18
+30064771192,"import, 6 import(.data_processor, DataProcessor)",18
+30064771195,"<operator>.assignment, 7 analyze_data = import(.analysis, analyze_data)",18
+30064771197,"<operator>.assignment, 7 compare_datasets = import(.analysis, compare_da...",18
+124554051593,"METHOD_REF, 9 def main(...) main = def main(...)",18
+30064771233,"<operator>.equals, 35 __name__ == ""__main__""",18
+30064771188,"import, 5 import(.math_utils, calculate_average)",18
+30064771190,"import, 5 import(.math_utils, calculate_standard_deviation)",18
+30064771194,"import, 7 import(.analysis, analyze_data)",18
+30064771196,"import, 7 import(.analysis, compare_datasets)",18
+30064771234,"main, 36 main()",18
+111669149714,"METHOD, 1 <module>",18
+128849018898,"METHOD_RETURN, 1 ANY",18
+30064771072,"<operator>.assignment, 5 __version__ = ""0.1.0""",0
+111669149696,"METHOD, 1 <module>",0
+128849018880,"METHOD_RETURN, 1 ANY",0
+30064771174,"<operator>.assignment, 8 __newInstance =",13
+30064771176,"__init__, 8 cls.__init__(__newInstance, data)",13
+146028888073,"RETURN, 8 return __newInstance",13
+30064771173,"<operator>.alloc, 8 ",13
+30064771175,"<operator>.fieldAccess, 8 cls.__init__",13
+55834574860,"FIELD_IDENTIFIER, 8 __init__",13
+111669149709,"METHOD, 8 <fakeNew>",13
+128849018893,"METHOD_RETURN, 8 ANY",13
+146028888087,"RETURN, 9 return test_calculate_sum(self)",35
+30064771343,"tests/test_core.py:<module>.TestCore.test_calculate_sum, 9 test_calculate_sum(self)",35
+111669149731,"METHOD, 9 test_calculate_sum<metaClassAdapter>",35
+128849018915,"METHOD_RETURN, 9 ANY",35
+30064771276,"<operator>.assignment, 16 manager_tmp0 = open(filename, 'w')",25
+30064771278,"<operator>.assignment, 16 enter_tmp1 = manager_tmp0.__enter__",25
+30064771280,"<operator>.assignment, 16 exit_tmp2 = manager_tmp0.__exit__",25
+30064771282,"<operator>.assignment, 16 value_tmp3 = enter_tmp1()",25
+30064771275,"open, 16 open(filename, 'w')",25
+30064771277,"<operator>.fieldAccess, 16 manager_tmp0.__enter__",25
+30064771279,"<operator>.fieldAccess, 16 manager_tmp0.__exit__",25
+30064771281,", 16 enter_tmp1()",25
+55834574867,"FIELD_IDENTIFIER, 16 __enter__",25
+55834574868,"FIELD_IDENTIFIER, 16 __exit__",25
+30064771283,"<operator>.assignment, 16 f = value_tmp3",25
+30064771274,"dump, 17 json.dump(data, f, indent = 4)",25
+30064771273,"<operator>.fieldAccess, 17 json.dump",25
+30064771284,", 16 __exit__()",25
+55834574866,"FIELD_IDENTIFIER, 17 dump",25
+111669149721,"METHOD, 8 save_to_json",25
+128849018905,"METHOD_RETURN, 8 ANY",25
+111669149743,METHOD <operator>.equals,47
+128849018927,METHOD_RETURN ANY,47
+30064771135,"<operator>.assignment, 9 self.data = data",9
+30064771134,"<operator>.fieldAccess, 9 self.data",9
+55834574849,"FIELD_IDENTIFIER, 9 data",9
+111669149705,"METHOD, 8 __init__",9
+128849018889,"METHOD_RETURN, 8 ANY",9
+30064771265,"<operator>.assignment, 1 open = __builtins__.open",24
+30064771266,"<operator>.assignment, 1 str = __builtins__.str",24
+30064771268,"<operator>.assignment, 5 json = import(, json)",24
+30064771285,"<operator>.assignment, 8 save_to_json = def save_to_json(...)",24
+30064771298,"<operator>.assignment, 19 load_from_json = def load_from_json(...)",24
+180388626441,"TYPE_REF, 1 __builtins__.open",24
+180388626442,"TYPE_REF, 1 __builtins__.str",24
+30064771267,"import, 5 import(, json)",24
+30064771270,"<operator>.assignment, 6 Any = import(typing, Any)",24
+30064771272,"<operator>.assignment, 6 Dict = import(typing, Dict)",24
+124554051597,"METHOD_REF, 8 def save_to_json(...) save_to_json = def save_to_json(...)",24
+124554051598,"METHOD_REF, 19 def load_from_json(...) load_from_json = def load_from_json(...)",24
+30064771269,"import, 6 import(typing, Any)",24
+30064771271,"import, 6 import(typing, Dict)",24
+111669149720,"METHOD, 1 <module>",24
+128849018904,"METHOD_RETURN, 1 ANY",24
+146028888086,"RETURN, 13 return test_calculate_average(self)",34
+30064771342,"tests/test_core.py:<module>.TestCore.test_calculate_average, 13 test_calculate_average(self)",34
+111669149730,"METHOD, 13 test_calculate_average<metaClassAdapter>",34
+128849018914,"METHOD_RETURN, 13 ANY",34
+111669149742,METHOD <operator>.alloc,46
+128849018926,METHOD_RETURN ANY,46
+30064771136,"<operator>.assignment, 8 __init__ = def __init__(...)",8
+30064771147,"<operator>.assignment, 11 get_statistics = def get_statistics(...)",8
+30064771170,"<operator>.assignment, 18 normalize_data = def normalize_data(...)",8
+124554051589,"METHOD_REF, 8 def __init__(...) __init__ = def __init__(...)",8
+124554051590,"METHOD_REF, 11 def get_statistics(...) get_statistics = def get_statistics(...)",8
+124554051591,"METHOD_REF, 18 def normalize_data(...) normalize_data = def normalize_data(...)",8
+111669149704,"METHOD, 7 <body>",8
+128849018888,"METHOD_RETURN, 7 ANY",8
+30064771073,"<operator>.assignment, 1 abs = __builtins__.abs",1
+30064771103,"<operator>.assignment, 8 analyze_data = def analyze_data(...)",1
+30064771120,"<operator>.assignment, 28 compare_datasets = def compare_datasets(...)",1
+180388626432,"TYPE_REF, 1 __builtins__.abs",1
+30064771075,"<operator>.assignment, 5 calculate_sum = import(.math_utils, calculate_sum)",1
+30064771077,"<operator>.assignment, 5 calculate_average = import(.math_utils, calcula...",1
+30064771079,"<operator>.assignment, 6 DataProcessor = import(.data_processor, DataPro...",1
+30064771081,"<operator>.assignment, 6 process_dataset = import(.data_processor, proce...",1
+124554051584,"METHOD_REF, 8 def analyze_data(...) analyze_data = def analyze_data(...)",1
+124554051585,"METHOD_REF, 28 def compare_datasets(...) compare_datasets = def compare_datasets(...)",1
+30064771074,"import, 5 import(.math_utils, calculate_sum)",1
+30064771076,"import, 5 import(.math_utils, calculate_average)",1
+30064771078,"import, 6 import(.data_processor, DataProcessor)",1
+30064771080,"import, 6 import(.data_processor, process_dataset)",1
+111669149697,"METHOD, 1 <module>",1
+128849018881,"METHOD_RETURN, 1 ANY",1
+146028888072,"RETURN, 8 return class DataProcessor<meta>(...).<fakeNew>...",12
+30064771172,", 8 class DataProcessor<meta>(...).<fakeNew>(data)",12
+30064771171,"<operator>.fieldAccess, 8 class DataProcessor<meta>(...).<fakeNew>",12
+180388626436,"TYPE_REF, 8 class DataProcessor<meta>(...)",12
+180388626435,"TYPE_REF, 8 class DataProcessor<meta>(...)",12
+55834574859,"FIELD_IDENTIFIER, 8 <fakeNew>",12
+111669149708,"METHOD, 8 <metaClassCallHandler>",12
+128849018892,"METHOD_RETURN, 8 sample_project/data_processor.py:<module>.DataProcessor",12
