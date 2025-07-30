@@ -4,9 +4,7 @@ set -e
 
 # Set these paths as needed
 JOERN_PATH=/usr/local/bin
-CODE_DIR=test_repo
-CODE_DIR_ABS="$(cd "$(dirname "$CODE_DIR")"; pwd)/$(basename "$CODE_DIR")"
-WORKSPACE=joern_workspace
+CODE_DIR=repos/test_repo
 OUT_DIR=out
 
 # Check if Joern exists
@@ -16,21 +14,23 @@ if [ ! -x "$JOERN_PATH/joern" ]; then
   exit 1
 fi
 
-# Check if test_repo exists
-if [ ! -d "$CODE_DIR_ABS" ]; then
-  echo "Error: Code directory $CODE_DIR_ABS not found."
-  echo "Please make sure test_repo exists in the current directory."
+# Check if code directory exists
+if [ ! -d "$CODE_DIR" ]; then
+  echo "Error: Code directory $CODE_DIR not found."
+  echo "Please make sure the code directory exists in the current directory."
   exit 1
 fi
 
-# 1. Clean up previous workspace and output
-echo "Cleaning up previous workspace and output..."
-rm -rf $WORKSPACE $OUT_DIR
-mkdir $WORKSPACE
+# 1. Clean up previous output
+echo "Cleaning up previous output..."
+rm -rf $OUT_DIR
 mkdir $OUT_DIR
 
-# 2. Run Joern to generate and export CFG using the official plugin
+# 2. Run Joern to generate and export CFG and call graph using the official plugins
 echo "Importing code and exporting CFG using dumpcfg plugin..."
-$JOERN_PATH/joern --run dumpcfg --src $CODE_DIR --language python --store
+$JOERN_PATH/joern --src $CODE_DIR --language python --overwrite --run dumpcfg
 
-echo "CFG export completed. Check $OUT_DIR/ for .dot files."
+echo "Exporting call graph using callgraph plugin..."
+$JOERN_PATH/joern --src $CODE_DIR --language python --overwrite --run callgraph
+
+echo "CFG and call graph export completed. Check $OUT_DIR/ for .dot files."
