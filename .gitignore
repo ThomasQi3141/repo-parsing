@@ -1,2 +1,5 @@
 joern-cli.zip
 /build
+/kuzu_db
+/repos/pylint
+/SWE-bench
