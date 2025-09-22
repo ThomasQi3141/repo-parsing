@@ -1,6 +1,0 @@
-digraph "&lt;operator&gt;.logicalNot" {  
-node [shape="rect"];  
-"111669149734" [label = <METHOD<BR/>&lt;operator&gt;.logicalNot> ]
-"128849018918" [label = <METHOD_RETURN<BR/>ANY> ]
-  "111669149734" -> "128849018918" 
-}

@@ -1,6 +1,0 @@
-digraph "&lt;operator&gt;.listLiteral" {  
-node [shape="rect"];  
-"111669149735" [label = <METHOD<BR/>&lt;operator&gt;.listLiteral> ]
-"128849018919" [label = <METHOD_RETURN<BR/>ANY> ]
-  "111669149735" -> "128849018919" 
-}

@@ -1,6 +1,0 @@
-digraph "&lt;operator&gt;.dictLiteral" {  
-node [shape="rect"];  
-"111669149741" [label = <METHOD<BR/>&lt;operator&gt;.dictLiteral> ]
-"128849018925" [label = <METHOD_RETURN<BR/>ANY> ]
-  "111669149741" -> "128849018925" 
-}

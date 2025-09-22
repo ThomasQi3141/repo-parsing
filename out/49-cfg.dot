@@ -1,6 +1,0 @@
-digraph "&lt;operator&gt;.assignment" {  
-node [shape="rect"];  
-"111669149745" [label = <METHOD<BR/>&lt;operator&gt;.assignment> ]
-"128849018929" [label = <METHOD_RETURN<BR/>ANY> ]
-  "111669149745" -> "128849018929" 
-}

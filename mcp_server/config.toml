@@ -1,0 +1,3 @@
+[mcp_servers.call-graph-analyzer]
+command = "mcp"
+args = ["run", "/Users/tq/Documents/GitHub/repo-parsing/mcp_server/mcp-call-graph.py"]

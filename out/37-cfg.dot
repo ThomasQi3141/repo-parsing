@@ -1,6 +1,0 @@
-digraph "&lt;operator&gt;.exponentiation" {  
-node [shape="rect"];  
-"111669149733" [label = <METHOD<BR/>&lt;operator&gt;.exponentiation> ]
-"128849018917" [label = <METHOD_RETURN<BR/>ANY> ]
-  "111669149733" -> "128849018917" 
-}

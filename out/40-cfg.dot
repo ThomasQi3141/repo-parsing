@@ -1,6 +1,0 @@
-digraph "&lt;operator&gt;.formatString" {  
-node [shape="rect"];  
-"111669149736" [label = <METHOD<BR/>&lt;operator&gt;.formatString> ]
-"128849018920" [label = <METHOD_RETURN<BR/>ANY> ]
-  "111669149736" -> "128849018920" 
-}

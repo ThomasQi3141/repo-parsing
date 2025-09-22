@@ -1,6 +1,0 @@
-digraph "&lt;operator&gt;.alloc" {  
-node [shape="rect"];  
-"111669149742" [label = <METHOD<BR/>&lt;operator&gt;.alloc> ]
-"128849018926" [label = <METHOD_RETURN<BR/>ANY> ]
-  "111669149742" -> "128849018926" 
-}

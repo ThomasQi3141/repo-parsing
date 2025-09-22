@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "graph-function-server": {
+      "command": "python3",
+      "args": ["mcp_graph_server.py"],
+      "env": {
+        "PYTHONPATH": "."
+      }
+    }
+  }
+}
