@@ -220,6 +220,4 @@ async def get_call_graph_stats() -> str:
 
 
 if __name__ == "__main__":
-    # Do not print to stdout; FastMCP will run stdio protocol on stdout.
-    # Use logging (stderr) only.
     mcp.run(transport="stdio")
